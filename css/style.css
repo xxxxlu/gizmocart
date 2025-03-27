@@ -1,0 +1,274 @@
+:root {
+    --primary-color: #007bff;
+    --text-color: #333;
+    --bg-color: #fff;
+    --border-color: #dee2e6;
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    min-height: 100vh;
+}
+
+.container {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    padding: 2rem;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3));
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.video-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Add padding-top to main content container to prevent navbar overlap */
+.main-container {
+    padding-top: 70px; /* Adjust based on navbar height */
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 1.5rem 1rem;
+    }
+}
+
+.navbar {
+    background-color: var(--bg-color) !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 0.5rem 0;
+    height: 60px; /* Fixed height for consistency */
+    z-index: 1000; /* Ensure navbar stays on top */
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 0;
+}
+
+.login-btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: white !important;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+.cart-icon {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: var(--text-color) !important;
+}
+
+.navbar-brand img {
+    height: 32px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: var(--text-color) !important;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+.cart-count {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.product-card {
+    transition: all 0.3s ease;
+    margin-bottom: 2rem;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 1rem;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+}
+
+.product-image {
+    height: 200px;
+    object-fit: contain;
+    padding: 1rem;
+    background-color: #f8f9fa;
+}
+
+.product-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0.75rem 0;
+    height: 2.4rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: var(--text-color);
+}
+
+.product-price {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.product-original-price {
+    font-size: 0.9rem;
+    color: #6c757d;
+    text-decoration: line-through;
+    margin-right: 0.5rem;
+}
+
+.product-discount {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #dc3545;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    z-index: 1;
+}
+
+.product-save {
+    font-size: 0.85rem;
+    color: #198754;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Cart page styles */
+.cart-item {
+    padding: 1.5rem;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 1rem;
+}
+
+.cart-item img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Checkout page styles */
+.payment-method-card {
+    border: 2px solid #dee2e6;
+    padding: 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: border-color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.payment-logo {
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+}
+
+.payment-method-card.selected {
+    border-color: var(--primary-color);
+}
+
+/* Loading animation */
+.loading-spinner {
+    width: 4rem;
+    height: 4rem;
+    margin: 2rem auto;
+}

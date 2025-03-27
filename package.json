@@ -1,0 +1,20 @@
+{
+  "name": "gizmocart",
+  "version": "1.0.0",
+  "description": "A static e-commerce website for GizmoCart targeting the Pakistan market",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["e-commerce", "pakistan", "static-website"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9"
+  }
+}
