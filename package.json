@@ -8,12 +8,13 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "keywords": ["e-commerce", "pakistan", "static-website"],
+  "keywords": [
+    "e-commerce",
+    "pakistan",
+    "static-website"
+  ],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^5.3.0"
-  },
   "devDependencies": {
     "vite": "^4.3.9"
   }
