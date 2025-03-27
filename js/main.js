@@ -34,7 +34,7 @@ function displayProducts() {
     
     products.forEach(product => {
         const productCard = document.createElement('div');
-        productCard.className = 'col-md-3 mb-4';
+        productCard.className = 'col-6 col-md-4 col-lg-3';
         productCard.innerHTML = `
             <div class="card product-card h-100 position-relative">
                 ${product.onSale ? `<div class="product-discount">${product.discount}</div>` : ''}
@@ -52,7 +52,7 @@ function displayProducts() {
                         ` : `
                             <p class="product-price mb-3">Rs. ${product.price.toLocaleString()}</p>
                         `}
-                        <button class="btn btn-primary w-100" onclick="addToCart(${product.id})">
+                        <button class="btn btn-primary w-100 btn-add-to-cart" onclick="addToCart(${product.id})">
                             <i class="bi bi-cart-plus"></i> Add to Cart
                         </button>
                     </div>

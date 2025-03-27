@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="GizmoCart Logo">GizmoCart</a>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="GizmoCart Logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,15 +42,48 @@
         </video>
     </div>
 
-    <main class="container mt-5 pt-4">
-        <div class="row" id="productList">
-            <!-- Product cards will be dynamically inserted here -->
-        </div>
+    <main class="container mt-5">
+        <section class="categories-section">
+            <h2>Popular Categories</h2>
+            <div class="row g-4">
+                <div class="col-6 col-md-3">
+                    <div class="category-card">
+                        <i class="bi bi-watch category-icon"></i>
+                        <p class="category-name">Watches</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="category-card">
+                        <i class="bi bi-mouse category-icon"></i>
+                        <p class="category-name">Computer Accessories</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="category-card">
+                        <i class="bi bi-wifi category-icon"></i>
+                        <p class="category-name">Networking</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="category-card">
+                        <i class="bi bi-headphones category-icon"></i>
+                        <p class="category-name">Audio</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="products-section">
+            <h2>Featured Products</h2>
+            <div class="row g-4" id="productList">
+                <!-- Product cards will be dynamically inserted here -->
+            </div>
+        </section>
     </main>
 
     <footer class="footer mt-5 py-3 bg-light">
         <div class="container text-center">
-            <p>© 2025 | Powered by Data Network Solutions</p>
+            <p>&copy; 2025 | Powered by Data Network Solutions</p>
         </div>
     </footer>
 
