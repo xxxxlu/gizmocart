@@ -284,3 +284,50 @@ body {
     height: 4rem;
     margin: 2rem auto;
 }
+
+
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.btn-switch {
+    background: #f8f9fa;
+    color: #0d6efd;
+    border: 2px solid #0d6efd;
+    transition: all 0.3s ease;
+}
+
+.btn-switch.active {
+    background: #0d6efd;
+    color: white;
+}
+
+.auth-form .form-control {
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    padding: 0.75rem 1rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.auth-form .form-control:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 4px rgba(13, 110, 253, 0.25);
+}
+
+.auth-form button[type='submit'] {
+    background: #0d6efd;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.auth-form button[type='submit']:hover {
+    transform: translateY(-2px);
+}
