@@ -3,6 +3,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const registerForm = document.getElementById('registerForm');
     const loginSwitch = document.getElementById('loginSwitch');
     const registerSwitch = document.getElementById('registerSwitch');
+    const authTitle = document.getElementById('auth-title');
+    const authSubtitle = document.querySelector('.auth-subtitle');
+    const passwordToggles = document.querySelectorAll('.password-toggle');
+
+    // Password visibility toggle
+    passwordToggles.forEach(toggle => {
+        toggle.addEventListener('click', () => {
+            const passwordField = toggle.closest('.password-field').querySelector('input');
+            const icon = toggle.querySelector('i');
+            
+            if (passwordField.type === 'password') {
+                passwordField.type = 'text';
+                icon.classList.remove('bi-eye');
+                icon.classList.add('bi-eye-slash');
+            } else {
+                passwordField.type = 'password';
+                icon.classList.remove('bi-eye-slash');
+                icon.classList.add('bi-eye');
+            }
+        });
+    });
 
     // 表单切换逻辑
     loginSwitch.addEventListener('click', (e) => {
@@ -11,6 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
         registerForm.style.display = 'none';
         loginSwitch.classList.add('active');
         registerSwitch.classList.remove('active');
+        authTitle.textContent = 'Sign In';
+        authSubtitle.textContent = 'Access your account';
     });
 
     registerSwitch.addEventListener('click', (e) => {
@@ -19,6 +42,8 @@ document.addEventListener('DOMContentLoaded', () => {
         registerForm.style.display = 'block';
         registerSwitch.classList.add('active');
         loginSwitch.classList.remove('active');
+        authTitle.textContent = 'Create Account';
+        authSubtitle.textContent = 'Join our community';
     });
 
     // 注册逻辑
@@ -43,6 +68,8 @@ document.addEventListener('DOMContentLoaded', () => {
         registerForm.style.display = 'none';
         loginSwitch.classList.add('active');
         registerSwitch.classList.remove('active');
+        authTitle.textContent = 'Sign In';
+        authSubtitle.textContent = 'Access your account';
     });
 
     // 登录逻辑
@@ -60,4 +87,21 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('邮箱或密码错误');
         }
     });
+
+    // Handle social login buttons (currently just placeholders)
+    const socialButtons = document.querySelectorAll('.social-btn');
+    socialButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            alert('Social login feature coming soon!');
+        });
+    });
+
+    // Handle forgot password link
+    const forgotLink = document.querySelector('.forgot-link');
+    if (forgotLink) {
+        forgotLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            alert('Password reset feature coming soon!');
+        });
+    }
 });
