@@ -57,22 +57,22 @@
   },
   {
     "name": "smart band 7 strap",
-    "discount": "",
-    "saveAmount": "",
+    "discount": "8% OFF",
+    "saveAmount": "Save Rs. 100",
     "onSale": false,
     "imageUrl": "https://mistore.pk/cdn/shop/files/Band7Strap_300x.png?v=1683106930"
   },
   {
     "name": "lcd writing tablet 13 5",
-    "discount": "",
-    "saveAmount": "",
+    "discount": "8% OFF",
+    "saveAmount": "Save Rs. 900",
     "onSale": false,
     "imageUrl": "https://mistore.pk/cdn/shop/products/Untitled-2-01_300x.png?v=1666785044"
   },
   {
     "name": "smart band 8 pro 1 overview",
-    "discount": "",
-    "saveAmount": "",
+    "discount": "6% OFF",
+    "saveAmount": "Save Rs. 1,200",
     "onSale": false,
     "imageUrl": "https://mistore.pk/cdn/shop/files/XiaomiSmartBand8pro_300x.jpg?v=1713513161"
   },
@@ -99,8 +99,8 @@
   },
   {
     "name": "router ac1200",
-    "discount": "",
-    "saveAmount": "",
+    "discount": "5% OFF",
+    "saveAmount": "Save Rs. 300",
     "onSale": false,
     "imageUrl": "https://mistore.pk/cdn/shop/files/routerAC1200_300x.jpg?v=1710919264"
   },
@@ -113,8 +113,8 @@
   },
   {
     "name": "wireless mouse 3",
-    "discount": "",
-    "saveAmount": "",
+    "discount": "11% OFF",
+    "saveAmount": "Save Rs. 200",
     "onSale": false,
     "imageUrl": "https://mistore.pk/cdn/shop/files/XiaomiWirelessMouseLite2BlackFront_fb57ed26-c9f7-4089-93ca-3c8947ea0ee9_300x.jpg?v=1722671132"
   },
@@ -127,16 +127,142 @@
   },
   {
     "name": "wireless mouse comfort edition",
-    "discount": "",
-    "saveAmount": "",
+    "discount": "11% OFF",
+    "saveAmount": "Save Rs. 200",
     "onSale": false,
     "imageUrl": "https://mistore.pk/cdn/shop/files/XiaomiWirelessMouseComfortEdition_Black_White_300x.jpg?v=1739878562"
   },
   {
     "name": "dual mode wireless mouse 2",
-    "discount": "",
-    "saveAmount": "",
+    "discount": "11% OFF",
+    "saveAmount": "Save Rs. 200",
     "onSale": false,
     "imageUrl": "https://mistore.pk/cdn/shop/files/XiaomiDual-modeWirelessMouse2_White_Black_300x.jpg?v=1739878988"
+  },
+  {
+    "name": "wireless earbuds 4",
+    "discount": "12% OFF",
+    "saveAmount": "Save Rs. 2,500",
+    "onSale": true,
+    "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=300&fit=crop"
+  },
+  {
+    "name": "smart scale 2",
+    "discount": "8% OFF",
+    "saveAmount": "Save Rs. 1,200",
+    "onSale": true,
+    "imageUrl": "https://m.media-amazon.com/images/I/61hEKJFzrYL._SL1500_.jpg"
+  },
+  {
+    "name": "smart doorbell 2",
+    "discount": "15% OFF",
+    "saveAmount": "Save Rs. 3,000",
+    "onSale": true,
+    "imageUrl": "https://m.media-amazon.com/images/I/61UnZxqEIUL._AC_SL1500_.jpg"
+  },
+  {
+    "name": "security camera 2k",
+    "discount": "10% OFF",
+    "saveAmount": "Save Rs. 2,800",
+    "onSale": true,
+    "imageUrl": "https://m.media-amazon.com/images/I/71t1jNqJkUL._AC_SL1500_.jpg"
+  },
+  {
+    "name": "smart bulb color",
+    "discount": "6% OFF",
+    "saveAmount": "Save Rs. 800",
+    "onSale": true,
+    "imageUrl": "https://m.media-amazon.com/images/I/61G5-oBZmzL._AC_SL1489_.jpg"
+  },
+  {
+    "name": "smart plug wifi",
+    "discount": "9% OFF",
+    "saveAmount": "Save Rs. 600",
+    "onSale": true,
+    "imageUrl": "https://m.media-amazon.com/images/I/61sY+dEH7XL._SL1500_.jpg"
+  },
+  {
+    "name": "smart door sensor",
+    "discount": "7% OFF",
+    "saveAmount": "Save Rs. 500",
+    "onSale": true,
+    "imageUrl": "https://m.media-amazon.com/images/I/51RC0C-o8JL._AC_SL1500_.jpg"
+  },
+  {
+    "name": "smart motion sensor",
+    "discount": "8% OFF",
+    "saveAmount": "Save Rs. 700",
+    "onSale": true,
+    "imageUrl": "https://m.media-amazon.com/images/I/51IUi36QY2L._SL1300_.jpg"
+  },
+  {
+    "name": "smart temperature sensor",
+    "discount": "6% OFF",
+    "saveAmount": "Save Rs. 400",
+    "onSale": true,
+    "imageUrl": "https://m.media-amazon.com/images/I/61MmGXfcmwL._SL1500_.jpg"
+  },
+  {
+    "name": "smart water sensor",
+    "discount": "5% OFF",
+    "saveAmount": "Save Rs. 300",
+    "onSale": true,
+    "imageUrl": "https://m.media-amazon.com/images/I/71hyiLQizmL._AC_SL1500_.jpg"
+  },
+  {
+    "name": "smart smoke detector",
+    "discount": "11% OFF",
+    "saveAmount": "Save Rs. 1,500",
+    "onSale": true,
+    "imageUrl": "https://m.media-amazon.com/images/I/71YOvT4zZiL._AC_SL1500_.jpg"
+  },
+  {
+    "name": "smart gas detector",
+    "discount": "13% OFF",
+    "saveAmount": "Save Rs. 1,800",
+    "onSale": true,
+    "imageUrl": "https://m.media-amazon.com/images/I/41KbrZ-63oS._AC_SL1001_.jpg"
+  },
+  {
+    "name": "smart curtain motor",
+    "discount": "14% OFF",
+    "saveAmount": "Save Rs. 4,500",
+    "onSale": true,
+    "imageUrl": "https://m.media-amazon.com/images/I/718LPlgijKL._AC_SL1500_.jpg"
+  },
+  {
+    "name": "smart door lock",
+    "discount": "16% OFF",
+    "saveAmount": "Save Rs. 5,000",
+    "onSale": true,
+    "imageUrl": "https://m.media-amazon.com/images/I/61zZkk5B8NL._AC_SL1500_.jpg"
+  },
+  {
+    "name": "smart vacuum robot",
+    "discount": "17% OFF",
+    "saveAmount": "Save Rs. 8,000",
+    "onSale": true,
+    "imageUrl": "https://m.media-amazon.com/images/I/81+JGGA9YUL._AC_SL1500_.jpg"
+  },
+  {
+    "name": "smart air purifier",
+    "discount": "12% OFF",
+    "saveAmount": "Save Rs. 3,500",
+    "onSale": true,
+    "imageUrl": "https://m.media-amazon.com/images/I/710w2H0ip+L._AC_SL1500_.jpg"
+  },
+  {
+    "name": "smart humidifier",
+    "discount": "9% OFF",
+    "saveAmount": "Save Rs. 1,200",
+    "onSale": true,
+    "imageUrl": "https://m.media-amazon.com/images/I/71U8JTpUjuL._AC_SL1500_.jpg"
+  },
+  {
+    "name": "990 PRO SSD",
+    "discount": "9% OFF",
+    "saveAmount": "Save Rs. 6,800",
+    "onSale": true,
+    "imageUrl": "https://m.media-amazon.com/images/I/81WuG6lQuDL._AC_SL1500_.jpg"
   }
 ]
