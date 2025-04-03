@@ -48,7 +48,8 @@ function initCheckoutForm() {
         // Collect form data
         const orderData = {
             customer: {
-                name: document.getElementById('name').value,
+                firstName: document.getElementById('firstName').value,
+                lastName: document.getElementById('lastName').value,
                 phone: document.getElementById('phone').value,
                 address: document.getElementById('address').value
             },
@@ -62,7 +63,7 @@ function initCheckoutForm() {
         
         // Clear cart and redirect to success page
         localStorage.removeItem('cart');
-        window.location.href = 'loading.html';
+        window.location.href = 'success.html';
     });
 }
 
